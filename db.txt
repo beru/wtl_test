@@ -1,0 +1,9 @@
+
+Scheme
+
+CREATE TABLE t_test(id INTEGER PRIMARY KEY, filename TEXT, timestamp INTEGER);
+
+INSERT INTO t_test(filename, timestamp) VALUES();
+
+SELECT * FROM t_test;
+

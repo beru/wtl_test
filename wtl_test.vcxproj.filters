@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22075693-a979-454f-8324-ef8dc3279c44}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5c066793-ce29-46f6-9f18-65f401c05427}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ccc4f9af-6d24-4416-a578-9c30e64886bd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{6dd3cbf7-45da-4b64-b8f0-28125cfbef0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WTLGridCtrl">
+      <UniqueIdentifier>{d5fcbf9e-7c82-490f-8ba3-0046d190a8c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wtl_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3\sqlite3.c">
+      <Filter>sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="WTLGridCtrl\GridCell.cpp">
+      <Filter>WTLGridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="WTLGridCtrl\GridCellBase.cpp">
+      <Filter>WTLGridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="WTLGridCtrl\GridCtrl.cpp">
+      <Filter>WTLGridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="WTLGridCtrl\InPlaceEdit.cpp">
+      <Filter>WTLGridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="WTLGridCtrl\TitleTip.cpp">
+      <Filter>WTLGridCtrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3\sqlite3.h">
+      <Filter>sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchCriteriaView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\CellRange.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\GridCell.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\GridCellBase.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\GridCtrl.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\InPlaceEdit.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="WTLGridCtrl\TitleTip.h">
+      <Filter>WTLGridCtrl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wtl_test.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\wtl_test.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\test.png" />
+    <Image Include="res\test.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
